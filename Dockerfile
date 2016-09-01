@@ -24,5 +24,5 @@ COPY deb /deb
 RUN dpkg -iR /deb/jessie
 
 EXPOSE 9000
-CMD ["php5-fpm -F"]
+CMD ["php5-fpm", "-F"]
 
